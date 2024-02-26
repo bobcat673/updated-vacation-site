@@ -1,16 +1,24 @@
 window.onload = function() {
-  colorMode = document.querySelector("body")
-  jumbotron = document.getElementById("jumbotron")
+  let body = document.querySelector("body")
+  let jumbotron = document.getElementById("jumbotron")
   document.getElementById("light").onclick = function() {
-    colorMode.style.color = "black";
-    colorMode.style.backgroundColor = "white";
+    body.style.color = "black";
+    body.style.backgroundColor = "white";
     jumbotron.style.color = "black";
     jumbotron.style.backgroundColor = "white";
   };
   document.getElementById("dark").onclick = function() {
-    colorMode.style.color = "white";
-    colorMode.style.backgroundColor = "black";
+    body.style.color = "white";
+    body.style.backgroundColor = "black";
     jumbotron.style.color = "white";
     jumbotron.style.backgroundColor = "black";
+  };
+  document.getElementById("fontLarge").onclick = function() {
+    body.style.fontSize = "x-large";
+    jumbotron.style.fontSize = "x-large";
+  };
+  document.getElementById("fontSmall").onclick = function() {
+    body.style.fontSize = "medium";
+    jumbotron.style.fontSize = "medium";
   };
 };
