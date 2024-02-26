@@ -3,10 +3,14 @@
   <head>
     <title>Vacation site</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js"></script>
   </head>
   <body>
+    <button id="light">Light mode</button>
+    <button id="dark">Dark mode</button>
     <div class="container">
-      <div class="jumbotron"> 
+      <div class="jumbotron" id="jumbotron"> 
         <h2>Welcome!</h2>
         <p>Get away today!</p>
       </div>
@@ -20,14 +24,12 @@
         Donec et dignissim leo. Donec erat eros, sodales sed rutrum eu, sodales ac magna. Vivamus varius risus ut nisi blandit, et pulvinar magna elementum. Mauris feugiat et lectus a rutrum. Mauris rutrum gravida quam, nec pulvinar purus vehicula eget. In accumsan dolor id faucibus rhoncus. Sed cursus sem in efficitur accumsan. Duis et sem lorem. Curabitur non justo orci. Suspendisse viverra ultrices faucibus. Nulla interdum pulvinar dolor, at convallis quam varius et. Nunc ultricies ultrices tortor, vel rutrum ante facilisis sed. Quisque eu eleifend quam. Fusce non felis et nulla vehicula efficitur id ut erat. Aenean quis dolor nec nisi posuere lobortis.
         
         Phasellus blandit condimentum purus, vel egestas neque sollicitudin eu. Donec euismod, felis at aliquam pharetra, turpis lorem congue tortor, vitae tempor arcu metus ac est. Suspendisse pharetra imperdiet magna sit amet pretium. Vestibulum a porta urna. Fusce et sagittis velit. Pellentesque posuere pharetra pharetra. Aliquam lobortis mi vel diam tempor, non placerat odio consectetur. Nam porttitor urna interdum felis condimentum auctor. Ut mauris nisi, eleifend vitae tristique vitae, luctus vitae arcu. Quisque pellentesque urna in enim ornare, sed pretium metus viverra. Fusce placerat est et arcu dignissim, sit amet porta elit tempor. Donec porta sodales purus in congue. Mauris sollicitudin nisl sed lacus blandit, at finibus justo hendrerit.</p>
-      
-        
       <h2>REVIEWS</h2>
       <blockquote class="blockquote">
         <p>
           Suspendisse ultrices mollis dictum. Fusce ac arcu vitae.
         </p>
-        <footer class="footer">Someone</footer>
+        <footer class="blockquote-footer">Someone</footer>
       </blockquote>
       <blockquote class="blockquote">
         <p class="bg-success">
@@ -35,6 +37,48 @@
         </p>
         <footer class="blockquote-footer">Someone</footer>
       </blockquote>
+      <div class="row">
+        <div class="col-3">
+            <h1>Economy</h1>
+            <p>You will get</p>
+            <ul>
+              <li>A plane ticket for basic economy seating</li>
+              <li>A basic hotel room</li>
+            </ul>
+            <button>$249</button>
+        </div>
+        <div class="col-3">
+          <h1>Standard</h1>
+          <p>information</p>
+          <ul>
+            <li>A plane ticket for standard seating</li>
+            <li>A standard hotel room</li>
+            <li>2 tickets for a free activity</li>
+          </ul>
+          <button>$429</button>
+        </div>
+        <div class="col-3">
+          <h1>Premuim</h1>
+          <p>information</p>
+          <ul>
+            <li>A plane ticket for buissnes seating</li>
+            <li>A standard hotel room</li>
+            <li>4 tickets for a free activity</li>
+          </ul>
+          <button>$749</button>
+        </div>
+        <div class="col-3">
+          <h1>Vip</h1>
+          <p>information</p>
+          <p>Leave on</p>
+          <ul>
+            <li>A plane ticket for first class seating</li>
+            <li>A vip hotel room</li>
+            <li>A free all ascess tickets for all activitys</li>
+          </ul>
+          <button>$1599</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
